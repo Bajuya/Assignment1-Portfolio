@@ -383,14 +383,14 @@ padding: 0 !important;
 
 .ar-pic1-container {
   width: 400px;
-  height: 500px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .ar-pic1-header-1 {
-  height: 600px !important;
+  height: 400px !important;
 }
 
 .ar-pic1{
@@ -406,8 +406,60 @@ padding: 0 !important;
 }
 
 .sub-title {
-  
+  font-family: 'Nunito', sans-serif;
 }
+
+.input-main-con {
+  margin-left: 2px !important;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px !important;
+}
+
+.input-con label {
+  font-family: 'Nunito', sans-serif;
+}
+
+.input-style {
+  border: none;
+  background-color: rgb(237, 237, 237);
+  padding: 5px 10px !important;
+  font-family: 'Nunito', sans-serif;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.send-btn {
+  margin-top: 5px;
+  padding: 8px 10px !important;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons a i {
+  width: 20px;
+  height: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  padding-bottom: 4px !important;
+  padding-top: 4px !important;
+  border: #000 solid 1px;
+  border-width: 0;
+  /* border-bottom-width: 1px; */
+  width: 160px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .header-background {

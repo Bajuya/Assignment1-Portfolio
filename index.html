@@ -41,7 +41,7 @@
       </section>
       <section class="position-absolute top-0 w-100 h-50">
         <section class="d-flex justify-content-between home-title">
-          <a href="Baju.html" style="text-decoration: none">
+          <a href="index.html" style="text-decoration: none">
             <h1 class="ner">Bajuyaa</h1>
           </a>
           <div class="d-flex justify-content-between align-items-center tolgoi">
@@ -205,44 +205,69 @@
     <div id="contact">
       <div class="container mt-5">
         <div class="row mt-5">
-          <div class="contact-left">
+          <div class="contact-left col-sm-6">
+            <div class="line"></div>
             <h1 class="sub-title">Contact me</h1>
             <p>99baju@gmail.com</p>
             <p>+97688598874</p>
             <div class="social-icons">
               <a href="https://www.facebook.com/bajuyaa/"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
+                ><i class="fa-brands fa-facebook"></i>
+                Facebook
+              </a>
               <a href="https://www.instagram.com/bajuyaa/"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
+                ><i class="fa-brands fa-instagram"></i>Instagram</a
+              >
               <a href="https://www.linkedin.com/in/baju-sersendemid-10516a248/"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
+                ><i class="fa-brands fa-linkedin"></i>LinkedIn</a
+              >
               <a href="https://www.youtube.com/"
-                ><i class="fa-brands fa-youtube"></i
-              ></a>
+                ><i class="fa-brands fa-youtube"></i>Youtube</a
+              >
             </div>
           </div>
-          <div class="contact-right">
+          <div class="contact-right col-sm-6">
             <form>
-              <input type="text" name="Name" placeholder="Your name" required />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Your Message"
-              ></textarea>
-              <button type="submit">Submit</button>
+              <section class="row gap-4 input-main-con">
+                <section class="col-sm-5 input-con">
+                  <label for="">Name</label>
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Your name"
+                    required
+                    class="input-style"
+                  />
+                </section>
+                <section class="col-sm-5 input-con">
+                  <label for="">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                    class="input-style"
+                  />
+                </section>
+              </section>
+              <section class="input-con">
+                <label for="">Message</label>
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                  class="input-style"
+                  style="width: 88%"
+                ></textarea>
+              </section>
+              <button class="btn btn-primary send-btn" type="submit">
+                Submit
+              </button>
             </form>
           </div>
         </div>
       </div>
+      <div style="height: 50px"></div>
     </div>
 
     <!-- bootstrap js -->
