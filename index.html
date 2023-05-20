@@ -30,6 +30,8 @@
     ></script>
   </head>
   <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
     <section class="header container-fluid">
       <section class="header-background row p-0">
         <div
@@ -93,7 +95,7 @@
       </section>
     </section>
     <section class="container m-5">
-      <div class="row" style="height: 400px">
+      <div class="row d-flex" style="height: 300px">
         <div class="col-sm-6 manifest-main">
           <div class="manifest-line"></div>
           <h3 class="manifest" data-i18n="Manif">Manifiesto</h3>
@@ -107,6 +109,11 @@
           ​
         </div>
       </div>
+    </section>
+    <section class="m-5">
+      <section class="container-fluid">
+        <div id="articleList" class="row"></div>
+      </section>
     </section>
     <section class="gol-heseg">
       <section
@@ -178,6 +185,12 @@
             </a>
           </div>
         </div>
+      </section>
+    </section>
+    <section class="m-5">
+      <h3 class="article-title-4">🔗 Fresh Links</h3>
+      <section class="container-fluid">
+        <div id="freshLinks" class="row"></div>
       </section>
     </section>
     <section class="about-me-main">
@@ -282,5 +295,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="i18n.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
